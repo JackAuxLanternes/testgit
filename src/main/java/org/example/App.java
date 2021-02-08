@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Calculatrice calculatrice = new Calculatrice();
+
+        System.out.println(calculatrice.addition(1,2));
     }
 }
